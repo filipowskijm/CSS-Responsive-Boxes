@@ -1,3 +1,29 @@
 body {
   background: blanchedalmond;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media (max-width: 800px) {
+  .container {
+    flex-flow: row wrap;
+
+  }
+}
+.a {
+  background: blue;
+  min-height: 150px;
+  min-width: 270px;
+}
+.b {
+  background: red;
+  min-height: 150px;
+  min-width: 270px;
+}
+.c {
+  background: green;
+  min-height: 150px;
+  min-width: 270px;
+}
