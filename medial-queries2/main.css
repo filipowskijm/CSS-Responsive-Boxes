@@ -1,3 +1,43 @@
 body {
   background: papayawhip;
 }
+.container {
+  display: flex;
+  flex-flow: column wrap;
+}
+@media (max-width: 800px) {
+  .container {
+    flex-flow: row wrap;
+
+  }
+}
+.a {
+  background: blue;
+  min-height: 150px;
+  min-width: 170px;
+}
+.b {
+  background: red;
+  min-height: 150px;
+  min-width: 170px;
+}
+.c {
+  background: purple;
+  min-height: 150px;
+  min-width: 170px;
+}
+.d {
+  background: orange;
+  min-height: 150px;
+  min-width: 170px;
+}
+.e {
+  background: teal;
+  min-height: 150px;
+  min-width: 170px;
+}
+.f {
+  background: green;
+  min-height: 150px;
+  min-width: 170px;
+}
